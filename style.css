@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* || RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+:root {
+  /* || FONTS */
+  --FF: 'Poppins', sans-serif;
+  --FS-SMALL: clamp(0.8rem, 1.8vh, 1.6rem);
+  --FS-SMALL-M: clamp(1.5rem, 2.7vh, 2.5rem);
+  --FS-MEDIUM: clamp(1.5rem, 3vh, 2.7rem);
+  --FS-BIG: clamp(2.1rem, 5.1vh, 4.2rem);
+  --FS-VBIG: clamp(3rem, 6.5vh, 4.5rem);
+
+  /* || COLORS */
+  --HEADING-COLOR: #ff702a;
+  --BUTTON-COLOR: #ff702a;
+  --FONT-COLOR: #fff;
+  --BG-COLOR: #1e1c2a;
+
+  /* STANDARD PADDING */
+  --PADDING-0-5: 0.5em;
+  --PADDING-0-75: 0.75em;
+  --PADDING-1: 1em;
+  --PADDING-2: 2em;
+
+  /* STANDARD MARGING */
+  --MARGIN-0-5: 0.5em;
+  --MARGIN-1: 1em;
+  --MARGIN-1-5: 1.5em;
+  --MARGIN-2: 2em;
+
+  /* BORDERS */
+  --BORDER-RADIUS-5: 5px;
+}
+
+/* || GENERAL STYLES */
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--FF);
+}
+
+body {
+  background-color: var(--BG-COLOR);
+  font-size: var(--FS-MEDIUM);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+  color: var(--HEADING-COLOR);
+  padding: 0 var(--PADDING-0-75);
+}
+
+h2 {
+  font-size: var(--FS-BIG);
+}
+
+h1 {
+  font-size: var(--FS-VBIG);
+}
+button {
+  background-color: var(--BUTTON-COLOR);
+  color: var(--FONT-COLOR);
+  font-size: var(--FS-SMALL);
+  border-radius: var(--BORDER-RADIUS-5);
+  border: none;
+  padding: var(--PADDING-0-75);
+  margin-top: var(--MARGIN-2);
+  margin-bottom: var(--MARGIN-1-5)
+}
+
+p {
+  font-size: var(--FS-SMALL);
+  color: var(--FONT-COLOR);
+  padding: 0 var(--PADDING-2);
+}
+
+/* || HEADER */
+
+.header{
+  top: 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--PADDING--SMALL-TB) var(--PADDING--SMALL-SIDE);
+  z-index: 5;
+  background-color: var(--BG-COLOR);
+}
+
+.header__h2 {
+  padding-left: 16px;
+}
+
+.header__ul{
+  display: none;
+  list-style-type: none;
+}
+
+.menu-icon {
+  margin-top: var(--MARGIN-1);
+  margin-right: var(--MARGIN-1);
+  color: var(--FONT-COLOR);
+}
+
+/* || HERO */
+
+.hero{
+  text-align: center;
+}
+
+.hero__h1 {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.hero__h3 {
+  color: var(--FONT-COLOR);
+  text-align: center;
+}
+.hero__button {
+ 
+}
+.hero__img{
+  width: 100%;
+}
+
+/* || MAIN */
+
+.main {
+  text-align: center;
+}
+
+.main__h6 {
+  margin-top: var(--MARGIN-1-5);
+}
+
+.main__h4 {
+  color: var(--FONT-COLOR);
+}
