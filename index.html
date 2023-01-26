@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://css.gg/shopping-cart.css" rel="stylesheet" />
     <link href="https://css.gg/menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Restaurant</title>
   </head>
   <body>
@@ -27,14 +28,14 @@
     <section class="hero">
       <h1 class="hero__h1">Full Website</h1>
       <h3 class="hero__h3">Foods the most precious things</h3>
-      <button class="hero__button">Today's Menu</button>
+      <button class="hero__button"> <a href="#food-menu">Today's Menu</a></button>
       <img class="hero__img" src="images/home.png" alt="food image" />
     </section>
     <main class="main">
       <section class="main__about-us">
         <h6 class="main__h6">About us</h6>
         <h4 class="main__h4">We speak the good food language</h4>
-        <p class="main_p">
+        <p class="main__p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
           corporis maxime sequi perferendis. Nam eligendi molestiae dolor
           dolorum? Eos ullam illum quod perferendis quis excepturi!
@@ -46,43 +47,45 @@
           alt="Today's special image"
         />
       </section>
-      <section class="main__section main__food-menu">
+      <section class="main__section main__food-menu" id="food-menu">
         <h6 class="main__h6">Food Menu</h6>
         <h4 class="main__h4">Fresh taste and great price</h4>
-        <div class="main_special-offer">
-          <div class="main__icon">
-            <i class="gg-shopping-cart"></i>
+        <div class="main__special-offers">
+          <div class="main_special-offer">
+            <div class="main__icon">
+              <i class="gg-shopping-cart"></i>
+            </div>
+            <img class="main__img" src="images/food1.png" alt="hamburger" />
+            <h6 class="main__special-offer_h6">Chicken Burger</h6>
+            <p class="main__special-offer__p">Tasty Food</p>
+            <p class="main__special-offer__price">$11.00</p>
           </div>
-          <img class="main__img" src="images/food1.png" alt="hamburger" />
-          <h6 class="main__special-offer_h6">Chicken Burger</h6>
-          <p class="main__special-offer__p">Tasty Food</p>
-          <p class="main__special-offer__price">$11.00</p>
-        </div>
-        <div class="main_special-offer">
-          <div class="main__icon">
-            <i class="gg-shopping-cart"></i>
+          <div class="main_special-offer">
+            <div class="main__icon">
+              <i class="gg-shopping-cart"></i>
+            </div>
+            <img class="main__img" src="images/food2.png" alt="beef burger" />
+            <h6 class="main__special-offer_h6">Chicken Burger</h6>
+            <p class="main__special-offer__p">Tasty Food</p>
+            <p class="main__special-offer__price">$12.00</p>
           </div>
-          <img class="main__img" src="images/food2.png" alt="beef burger" />
-          <h6 class="main__special-offer_h6">Chicken Burger</h6>
-          <p class="main__special-offer__p">Tasty Food</p>
-          <p class="main__special-offer__price">$12.00</p>
-        </div>
-        <div class="main_special-offer">
-          <div class="main__icon">
-            <i class="gg-shopping-cart"></i>
+          <div class="main_special-offer">
+            <div class="main__icon">
+              <i class="gg-shopping-cart"></i>
+            </div>
+            <img
+              class="main__img"
+              src="images/food3.png"
+              alt="chicken fry pack"
+            />
+            <h6 class="main__special-offer_h6">Chicken Burger</h6>
+            <p class="main__special-offer__p">Tasty Food</p>
+            <p class="main__special-offer__price">$13.00</p>
           </div>
-          <img
-            class="main__img"
-            src="images/food3.png"
-            alt="chicken fry pack"
-          />
-          <h6 class="main__special-offer_h6">Chicken Burger</h6>
-          <p class="main__special-offer__p">Tasty Food</p>
-          <p class="main__special-offer__price">$13.00</p>
         </div>
       </section>
       <section class="main__section main__services">
-        <h6 class="main__h6">Services</h6>
+        <h5 class="main__h5">Services</h5>
         <h4 class="main__h4">We provide best food services</h4>
         <img
           class="main__services__img"
@@ -90,7 +93,7 @@
           alt="delivery image"
         />
         <h5 class="main__h5">You Order</h5>
-        <p class="main_p">
+        <p class="main__p">
           There are many variations of passages Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Autem, repellat!
         </p>
@@ -99,8 +102,8 @@
         src="images/s2.png"
         alt="delivery image"
         />
-        <h5 class="main__h5">You Order</h5>
-        <p class="main_p">
+        <h5 class="main__h5">Shipping</h5>
+        <p class="main__p">
           There are many variations of passages Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Autem, repellat!
         </p>
@@ -110,11 +113,47 @@
         alt="delivery image"
         />
         <h5 class="main__h5">Delivered</h5>
-        <p class="main_p">
+        <p class="main__p">
           There are many variations of passages Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Autem, repellat!
         </p>
       </section>
+      <section class="main__section main__banner">
+        <div class="main__div">
+          <h3 class="main__h3">We Make Tasty Food Everyday</h3>
+          <button class="main__button">Let's Talk!</button>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <section class="footer__section">
+        <h5 class="footer__h5"><span class="footer__h5-span">Our Service</span></h5>
+        <ul class="footer__ul">
+          <li>Web Design</li>
+          <li>Web Development</li>
+          <li>Marketing</li>
+          <li>Product Management</li>
+          <li>Graphic Design</li>
+        </ul>
+      </section>
+      <section class="footer__section">
+        <h5 class="footer__h5"><span class="footer__h5-span">Information</span></h5>
+        <ul class="footer__ul">
+          <li>About Us</li>
+          <li>Delivery Information</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+        </ul>
+      </section>
+      <section class="footer__section">
+        <h5 class="footer__h5"><span class="footer__h5-span">Contact Us</span></h5>
+        <div class="footer__contact-icons">
+          <a href="" class="fa fa-linkedin"></a>
+          <a href="" class="fa fa-instagram"></a>
+          <a href="" class="fa fa-twitter"></a>
+          <a href="" class="fa fa-youtube"></a>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
