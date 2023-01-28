@@ -1,0 +1,93 @@
+/* || MAIN - ABOUT US */
+.main__about-us {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__h6 {
+  margin-top: var(--MARGIN-1-5);
+}
+
+.main__h4 {
+  color: var(--FONT-COLOR);
+  margin-left: var(--MARGIN-0-5);
+  margin-right: var(--MARGIN-0-5);
+}
+.main button {
+  align-self: center;
+}
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main__p {
+  max-width: 80%;
+}
+
+/* || MAIN SECTION - FOOD MENU*/
+
+.main__special-offers {
+  display: flex;
+  flex-direction: column;
+}
+.main_special-offer {
+  margin: var(--MARGIN-0-5);
+  padding: var(--PADDING-0-5) var(--PADDING-0-75);
+  background: var(--BG-IMAGE);
+  border-radius: var(--BORDER-RADIUS-5);
+  display: flex;
+  flex-direction: column;
+}
+.main__icon {
+  background-color: var(--ICON-COLOR);
+  border-radius: var(--BORDER-RADIUS-5);
+  align-self: flex-end;
+  margin-top: var(--N-MARGIN-0-5);
+  margin-right: var(--N-MARGIN-0-75);
+  padding: var(--PADDING-0-25) var(--PADDING-0-25) var(--PADDING-0-25)
+    var(--PADDING-0-5);
+}
+.gg-shopping-cart {
+  color: var(--BG-IMAGE);
+  padding: var(--PADDING-0-5);
+}
+.main__special-offer__p {
+  color: var(--FONT-BLACK-COLOR);
+}
+
+.main__special-offer__price {
+  font-weight: var(--FW-LIGHT);
+  color: var(--PRICE-COLOR);
+}
+
+/* || MAIN SECTION - SERVICES*/
+.main__services__img {
+  margin-top: var(--MARGIN-2);
+  max-width: 25%;
+}
+
+/* || MAIN SECTION - BANNER*/
+
+.main__banner {
+  border-radius: var(--BORDER-RADIUS-5);
+  background-color: var(--BG-IMAGE);
+  max-width: 90%;
+}
+.main__div {
+  padding: var(--PADDING-2) var(--PADDING-1) var(--PADDING-1) var(--PADDING-1);
+}
+.main__div .main__h3 {
+  color: var(--BG-COLOR);
+}

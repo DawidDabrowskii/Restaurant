@@ -1,0 +1,29 @@
+.footer__section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--MARGIN-0-5);
+}
+
+.footer__h5 {
+  color: var(--FONT-COLOR);
+  margin-left: var(--MARGIN-0-5);
+}
+.footer__h5-span {
+  border-bottom: var(--BORDER-TRANSPARENT);
+  border-image: var(--BORDER-IMAGE);
+  border-image-slice: 1;
+}
+
+.footer__contact-icons .fa {
+  margin-top: var(--MARGIN-0-5);
+  margin-left: var(--MARGIN-0-5);
+  background-color: var(--ICON-COLOR);
+  padding: var(--PADDING-0-25);
+  border-radius: var(--BORDER-CIRCLE);
+  text-decoration: none;
+  color: var(--FONT-COLOR);
+}
+.footer__ul {
+  display: flex;
+  flex-direction: column;
+}

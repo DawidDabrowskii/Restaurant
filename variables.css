@@ -1,0 +1,54 @@
+:root {
+  /* || FONTS */
+  --FF: 'Poppins', sans-serif;
+  --FS-VERY-SMALL: clamp(0.5rem, 1.5vh, 1.3rem);
+  --FS-SMALL: clamp(0.8rem, 1.8vh, 1.6rem);
+  --FS-SMALL-M: clamp(1rem, 2.7vh, 2.5rem);
+  --FS-MEDIUM: clamp(1.5rem, 3vh, 2.7rem);
+  --FS-BIG: clamp(2.1rem, 5.1vh, 4.2rem);
+  --FS-VBIG: clamp(3rem, 6.5vh, 4.5rem);
+
+  /* FONT WEIGHTS */
+  --FW-LIGHT: 300;
+  --FW-REGULAR: 400;
+  --FW-BOLD: 500;
+
+  /* || COLORS */
+  --HEADING-COLOR: #ff702a;
+  --BUTTON-COLOR: #ff702a;
+  --PRICE-COLOR: #ff702a;
+  --ICON-COLOR: #ff702a;
+  --FONT-COLOR: #fff;
+  --FONT-BLACK-COLOR: #000;
+  --BG-COLOR: #1e1c2a;
+  --BG-IMAGE: #fdf5ec;
+  --UL-COLOR: rgb(182, 171, 171);
+
+  /* STANDARD PADDING */
+  --PADDING-0-25: 0.25em;
+  --PADDING-0-5: 0.5em;
+  --PADDING-0-75: 0.75em;
+  --PADDING-1: 1em;
+  --PADDING-2: 2em;
+
+  /* STANDARD MARGIN */
+  --MARGIN-0-5: 0.5em;
+  --MARGIN-0-75: 0.75em;
+  --MARGIN-1: 1em;
+  --MARGIN-1-5: 1.5em;
+  --MARGIN-2: 2em;
+  --MARGIN-3: 3em;
+  --MARGIN-5: 5em;
+  --MARGIN-8: 8em;
+  --MARGIN-10: 10em;
+
+  /* || NEGATIVE MARGIN */
+  --N-MARGIN-0-5: -0.5em;
+  --N-MARGIN-0-75: -0.75em;
+
+  /* BORDERS */
+  --BORDER-RADIUS-5: 5px;
+  --BORDER-CIRCLE: 50%;
+  --BORDER-TRANSPARENT: 2px solid transparent;
+  --BORDER-IMAGE: linear-gradient(to right, #ff702a, #1e1c2a);
+}

@@ -1,0 +1,21 @@
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: var(--MARGIN-1);
+}
+
+.hero__h3 {
+  color: var(--FONT-COLOR);
+  width: 60%;
+}
+.hero__anchor {
+  background-color: var(--BUTTON-COLOR);
+  border-radius: var(--BORDER-RADIUS-5);
+  padding: var(--PADDING-0-5);
+  margin: var(--MARGIN-1);
+  font-size: var(--FS-SMALL);
+}
