@@ -156,7 +156,6 @@ img {
   padding-right: var(--PADDING-0-5) var(--PADDING-1);
 }
 
-
 /* || HEADER */
 
 .header {
@@ -224,7 +223,13 @@ img {
   color: var(--FONT-COLOR);
   width: 60%;
 }
-
+.hero__anchor {
+  background-color: var(--BUTTON-COLOR);
+  border-radius: var(--BORDER-RADIUS-5);
+  padding: var(--PADDING-0-5);
+  margin: var(--MARGIN-1);
+  font-size: var(--FS-SMALL);
+}
 
 /* || MAIN */
 
@@ -396,8 +401,8 @@ button:hover {
     position: fixed;
     align-items: center;
     top: 0;
-
   }
+
   h1 {
     font-size: var(--FS-VBIG);
   }
